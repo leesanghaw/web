@@ -1,0 +1,16 @@
+{
+  "name": "ch03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "00-meadowlark.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
