@@ -1,0 +1,21 @@
+{
+  "name": "ch08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "meadowlark.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.1.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "multiparty": "^4.2.2"
+  }
+}
