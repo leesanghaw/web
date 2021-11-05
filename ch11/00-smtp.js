@@ -3,17 +3,17 @@ const nodemailer = require('nodemailer')
 const credentials = require('./credentials')
 
 const mailTransport = nodemailer.createTransport({
-  host: 'smtp.sendgrid.net',
+  host: 'oasis.inje.ac.kr', 
   auth: {
-    user: credentials.sendgrid.user,
-    pass: credentials.sendgrid.password,
+    user: credentials.inje.user,
+    pass: credentials.inje.password,
   },
 })
 
 async function go() {
   try {
     const result = await mailTransport.sendMail({
-      from: '"my server" <tkdghk5595@naver.com>',
+      from: '"my server" <tkdghk@oasis.inje.ac.kr>',
       to: 'tkdghk5595@naver.com',
       subject: '11장 이메일 전송',
       text: '20181938 ' +
